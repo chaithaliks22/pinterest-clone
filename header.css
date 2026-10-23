@@ -1,0 +1,102 @@
+h2{
+    display: contents;
+    color: #cc3636;
+}
+.logo{
+    display: flex;
+    position: relative;
+    top: 8px;
+    gap: 5px;
+}
+.container{
+    display: flex;
+    
+}
+#btn{
+    border: none;
+    background-color:white;
+    border-radius: 10px;
+    width: 100px;
+    height: 45px;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: rgb(241, 237, 237);
+}
+#search{
+    width: 704px;
+    height: 43px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f6f2f2;
+    outline: none;
+}
+.search{
+    border: 1px #f6f2f2;
+    border-radius: 10px;
+    background-color: #f6f2f2;
+    
+}
+.search:hover{
+    background-color:rgb(228, 223, 223);
+}
+#search:hover{
+    background-color:rgb(228, 223, 223) ;
+}
+.container2{
+    display: contents;
+}
+.all_buttons{
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.all_buttons:hover{
+    background-color: whitesmoke;
+}
+#about{
+    width:65px;
+}
+#business{
+    width: 80px;
+}
+#create{
+    width: 65px;
+}
+#news{
+    width: 65px;
+}
+#login{
+color: white;
+background-color: rgb(222, 30, 30);
+border-radius: 10px;
+border: none;
+width: 70px;
+cursor: pointer;
+}
+#login:hover{
+    background-color: rgb(192, 16, 16);
+}
+#signup:hover{
+    background-color: rgb(184, 181, 181);
+}
+
+#signup{
+    border: none;
+    border-radius: 10px;
+    width: 80px;
+    cursor: pointer;
+}
+
+nav{
+    /* overflow: clip; */
+    position: fixed;
+    top: 0;
+    /* align-self: flex-start; */
+    z-index: 10;
+    background-color: white;
+    width: 100vw;
+    height: 62px;
+}

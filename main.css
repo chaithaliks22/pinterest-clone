@@ -1,0 +1,372 @@
+#more{
+    width: 410px;
+    font-size: 41px;
+    font-weight: 700;
+}
+#more b{
+    font-weight: 900;
+}
+#main_btn{
+    color: white;
+background-color: rgb(222, 30, 30);
+border-radius: 10px;
+border: none;
+width: 184px;
+height: 44px;
+cursor: pointer;
+}
+#main_btn:hover{
+    background-color: rgb(192, 16, 16);
+}
+#account{
+    border: none;
+    border-radius: 10px;
+    width: 184px;
+    height: 44px;
+    cursor: pointer;
+}
+#account:hover{
+    background-color:rgb(217, 213, 213);
+}
+.main_container{
+        position: relative;
+    top: 100px;
+    left: 50px;
+}
+#img1{
+    position: relative;
+    left: 710px;
+    bottom: 245px;
+}
+.create{
+        position: relative;
+    left: 153px;
+    top: 61px;
+}
+.main_container2{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 170px;
+    position: relative;
+}
+.main_container2 b{
+    font-weight: 900;
+}
+#seeall{
+    height: 50px;
+    width: 80px;
+    border-radius: 10px;
+    border:none;
+    background-color: rgb(191, 189, 189);
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+      
+}
+#seeall:hover{
+    background-color: rgb(171, 169, 169);
+}
+.card_container0{
+    display: flex;
+    gap: 1px;
+    border: none;
+    border-radius: 20px;
+    overflow: auto;
+    width: 285px;   
+}
+.card1_container{
+        display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+.card_container02{
+    display: flex;
+    gap: 1px;
+    border: none;
+    border-radius: 20px;
+    overflow: auto;
+    width: 285px;   
+}
+ .card_container0:has(img:hover) img,
+.card1_container:has(img:hover) img {
+    filter: brightness(80%);
+}
+.card_container02:has(img:hover) img,
+.card2_container:has(img:hover) img {
+    filter: brightness(80%);
+}
+.card2_container{
+        display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+.card_container{
+    display: flex;
+    gap: 20px;
+    margin-left: 143px;
+}
+.top_container{
+    height: 157vh;
+}
+body{
+    overflow-x: clip;
+}
+.card1:hover{
+    overflow:hidden;
+    z-index: 1;
+    /* background-color: rgba(76, 73, 73, 0.5); */
+}
+.beige{
+    background-color:rgb(241, 238, 231);
+    height: 320vh;
+}
+.skin_tone{
+    position: relative;
+    top: 180px;
+    left: 250px;
+    border:none;
+    width: 550px;
+    border-radius: 25px;
+    overflow: hidden;
+    height: 550px;
+}
+#join{
+    color: white;
+background-color: rgb(222, 30, 30);
+border-radius: 15px;
+height: 45px;
+border: none;
+width: 135px;
+cursor: pointer;
+    position: relative;
+    left: 895px;
+    bottom: 272px;
+    font-size: 15px;
+}
+#join:hover{
+    background-color: rgb(192, 16, 16);
+}
+#lipstick{
+    height: 50vh;
+}
+#earthy{
+        position: relative;
+    left: 794px;
+    bottom: 270px;
+    border-radius: 31px;
+}
+.texts{
+        position: relative;
+    left: 144px;
+    bottom: -30px;
+}
+#texts{
+    font-size: 40px;
+}
+#texts1{
+font-size: 20px;
+}
+#txts{
+    color: white;
+background-color: rgb(222, 30, 30);
+border-radius: 15px;
+height: 45px;
+border: none;
+width: 135px;
+cursor: pointer;
+    position: relative;
+    left:-406px;
+    bottom: 485px;
+    font-size: 15px;
+}
+#txts:hover{
+    background-color: rgb(192, 16, 16);
+}
+#cherry_red{
+    position: relative;
+    left: 250px;
+    bottom: 200px;
+    border-radius: 31px;
+    
+}
+.cherry_txts{
+    position: relative;
+    left: 890px;
+    bottom: 628px;
+}
+#cherry_text{
+    font-size: 20px;
+}
+#cherry{
+    display:flex;
+    justify-content: space-between;
+}
+#chry{
+    color: white;
+background-color: rgb(222, 30, 30);
+border-radius: 15px;
+height: 45px;
+border: none;
+width: 135px;
+cursor: pointer;
+    position: relative;
+    left: 895px;
+    bottom: 625px;
+    font-size: 15px;
+}
+#chry:hover{
+  background-color: rgb(192, 16, 16)
+}
+/* #login_img{
+    border: 1px solid black;
+    object-fit: cover;
+    object-position: center;
+
+
+} */
+
+.login{
+    background-image: url(images-removebg-preview\ \(1\).png);
+    height: 110vh;
+}
+.login_text{
+    color:black;
+    position: relative;
+    top: -500px;
+    left: 100px;
+    font-size: 35px;
+}
+.welcome{
+    border: 1px solid black;
+    width:450px;
+    height: 670px;
+    border-color: white;
+    border-radius: 20px;
+    position: relative;
+    top: -1020px;
+    left: 900px;
+    background-color: white;
+    z-index: 1;
+}
+#login_txts{
+    font-size: 17px;
+    position: relative;
+    left: 25px;
+    bottom: 16px;
+}
+#login_txt{
+    position: relative;
+    left:25px ;
+}
+#email{
+    height: 47px;
+    width: 390px;
+    position: relative;
+    left: 31px;
+    border-radius: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+}
+#password{
+    height: 47px;
+    width: 390px;
+    position: relative;
+    left: 31px;
+    bottom: -10px;
+    border-radius: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+}
+#paragraph{
+    font-size: 14px;
+    position: relative;
+    left: 50px;
+    color: grey;
+    bottom: -3px;
+}
+#date{
+    height: 47px;
+    width: 390px;
+    position: relative;
+    left: 31px;
+    bottom: 1px;
+    border-radius: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+}
+
+#continue {
+    height: 50px;
+    width: 390px;
+    position: relative;
+    left: 33px;
+    bottom: -20px;
+    border-radius: 15px;
+    background-color: rgb(222, 30, 30);
+    border: 1px solid rgb(222, 30, 30);
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in;
+    z-index: 100;
+}
+
+#continue:hover {
+    background-color: rgb(192, 16, 16);
+    border-color: rgb( 192,16,16);
+}
+
+#or{
+    position: relative;
+    left: 220px;
+    bottom: -10px;
+}
+#google{
+    height: 50px;
+    width: 390px;
+    position: relative;
+    left: 33px;
+    bottom: -3px;
+    border-radius: 15px;
+    border: 1px solid grey;
+    color: black;
+    font-size: 15px;
+    background-color: white;
+    font-size: 17px;
+}
+#google img{
+    position: relative;
+    left: -88px;
+    bottom: -4px;
+}
+#google:hover{
+    background-color: rgb(246, 246, 246);
+}
+#already{
+    position: relative;
+    left: 30px;
+    bottom: -20px;
+    font-size: 17px;
+}
+#already a{
+    color: black;
+}
+#policy a{
+    color: grey;
+}
+#policy{
+    color: grey;
+    position: relative;
+    left: 30px;
+    bottom: -20px;
+    font-size: 14px;
+}
+#links{
+    font-size: 14px;
+    color: grey;
+    cursor: pointer;
+}
+body{
+    width: 100vw;
+}
