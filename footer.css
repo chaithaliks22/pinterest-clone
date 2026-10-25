@@ -37,3 +37,6 @@ font-size: 14px;
 footer a{
     text-decoration: none;
 }
+.list1 a:hover{
+    text-decoration: underline;
+}
